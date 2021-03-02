@@ -35,7 +35,8 @@ function retrieveContacts() {
     const xhr = new XMLHttpRequest();
 //    const url = "contacts.json";
 //    const url = "https://api.androidhive.info/contacts/";
-    const url = "https://fcc-weather-api.glitch.me/api/current?lat=22.30&lon=114.17";
+//    const url = "https://fcc-weather-api.glitch.me/api/current?lat=22.30&lon=114.17";
+    const url = "https://ouhklab.github.io/contact-info-mobile-web-app/contacts.json";
 
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4) {
