@@ -33,7 +33,8 @@ function initialize() {
 
 function retrieveContacts() {
     const xhr = new XMLHttpRequest();
-    const url = "contacts.json";
+//    const url = "contacts.json";
+    const url = "https://api.androidhive.info/contacts/";
 
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4) {
